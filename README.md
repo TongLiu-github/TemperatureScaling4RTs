@@ -7,7 +7,7 @@ Code for the paper [Temperature-scaling surprisal estimates improve fit to human
 [<img src="https://github.com/TongLiu-github/TemperatureSaling4RTs/blob/main/figures/optimal_T_gpt2_naturalstories.png" alt="viewer" width="400">](https://prismarinejs.github.io/prismarine-viewer/)
 [<img src="https://github.com/TongLiu-github/TemperatureSaling4RTs/blob/main/figures/optimal_T_gpt2_brown.png" alt="viewer" width="400">](https://prismarinejs.github.io/prismarine-viewer/)
 
-<h3> How to run </h3>
+<h3> Installation </h3>
 To get started, install the package:  
 
 ```bash
