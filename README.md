@@ -23,26 +23,27 @@ GPT2 s/m/l/xl on Natural Stories/Brown corpora:
 ```bash
 sh run.sh
 ```
- - Comment 1: Inside the above .sh file, to calculate the $\Delta_{\mathcal{llh}}$ at $T=1$: 
+Results store in *./PPP_Calculation_{corpus}/surprisals/1000/gpt2_{size}/gpt2_{size}__ PPP_result{K}.txt*.  
+
+*Comment 1*: Inside the above script, to calculate the $\Delta_{\mathcal{llh}}$ at $T=1$: 
 ```bash
 python PPP_calculation.py -n 1000 -data_name ${data_name0} -model_name ${model_name0} -cuda_num "0"  -K 10 -T_optimal 1.0
 ```
-To scale T with $T\geq1$ (e.g., $T \in [1.0, 10.0]$):  
+At $T\geq1$ (e.g., $T \in [1.0, 10.0]$):  
 ```bash
 python PPP_calculation.py -n 1000 -data_name ${data_name0} -model_name ${model_name0} -cuda_num "0"  -K 0 
 ```     
 
 
- - Comment 2: Core Components of the Temperature-Scaling Code:  
+*Comment 2*: Core Components of the Temperature-Scaling Code:  
 1. Calculate logits, probabilities and labels (utils.py).
 2. Scale logits using temperature (line 230-231 in PPP_calculation.py):  
 
-<h3> Processed Data </h3>
-We provided processed data for Natural Stories and Brown:  
+*Comment 3*: For experiments on Dundee, the procedure remains the same as above, while the data size is larger (and therefore not uploaded to this repository). 
 
-./PPP_Calculation_Natural_Stories/data/all.txt.annotation.filtered.csv,  
-and  
-./PPP_Calculation_Brown/data/all.txt.annotation.filtered.csv.  
+<h3> Processed Data </h3>  
+
+We provide processed data for Natural Stories and Brown in *./PPP_Calculation_{corpus}/data/all.txt.annotation.filtered.csv*. 
 
 <h3> BibTeX </h3>  
 
