@@ -1,0 +1,3 @@
+linear_fit_logLik:  -6.37302227248662
+delta_linear_fit_logLik:  0.00698590323118342
+delta_linear_fit_chi_p:  0
