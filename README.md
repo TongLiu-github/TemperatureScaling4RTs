@@ -4,8 +4,8 @@ Code for the paper [Temperature-scaling surprisal estimates improve fit to human
 
 
 
-[<img src="https://github.com/TongLiu-github/temperature-scaling-for-fit-to-reading-times/blob/main/figures/optimal_T_gpt2_naturalstories.png" alt="viewer" width="400">](https://prismarinejs.github.io/prismarine-viewer/)
-[<img src="https://github.com/TongLiu-github/temperature-scaling-for-fit-to-reading-times/blob/main/figures/optimal_T_gpt2_brown.png" alt="viewer" width="400">](https://prismarinejs.github.io/prismarine-viewer/)
+[<img src="https://github.com/TongLiu-github/temperature-scaling-for-reading-times/blob/main/figures/optimal_T_gpt2_naturalstories.png" alt="viewer" width="400">](https://prismarinejs.github.io/prismarine-viewer/)
+[<img src="https://github.com/TongLiu-github/temperature-scaling-for-reading-times/blob/main/figures/optimal_T_gpt2_brown.png" alt="viewer" width="400">](https://prismarinejs.github.io/prismarine-viewer/)
 
 <h3> Prepare Data </h3>
 Processed data for Natural Stories and Brown:  
