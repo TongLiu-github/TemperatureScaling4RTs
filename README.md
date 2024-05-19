@@ -23,7 +23,7 @@ GPT2 s/m/l/xl on Natural Stories/Brown corpora:
 ```bash
 sh run.sh
 ```
- - Hint 1: Inside the above .sh file, to calculate the $\Delta_{\mathcal{llh}}$ at $T=1$: 
+ - Comment 1: Inside the above .sh file, to calculate the $\Delta_{\mathcal{llh}}$ at $T=1$: 
 ```bash
 python PPP_calculation.py -n 1000 -data_name ${data_name0} -model_name ${model_name0} -cuda_num "0"  -K 10 -T_optimal 1.0
 ```
@@ -33,7 +33,7 @@ python PPP_calculation.py -n 1000 -data_name ${data_name0} -model_name ${model_n
 ```     
 
 
- - Hint 2: Core Components of the Temperature-Scaling Code:  
+ - Comment 2: Core Components of the Temperature-Scaling Code:  
 1. Calculate logits, probabilities and labels (utils.py).
 2. Scale logits using temperature (line 230-231 in PPP_calculation.py):  
 
@@ -42,4 +42,16 @@ We provided processed data for Natural Stories and Brown:
 
 ./PPP_Calculation_Natural_Stories/data/all.txt.annotation.filtered.csv,  
 and  
-./PPP_Calculation_Brown/data/all.txt.annotation.filtered.csv.
+./PPP_Calculation_Brown/data/all.txt.annotation.filtered.csv.  
+
+<h3> BibTeX </h3>  
+
+```bash
+@inproceedings{liu2024temperature,
+  title={TEMPERATURE-SCALING SURPRISAL ESTIMATES IMPROVE FIT TO HUMAN READING TIMES--BUT DOES IT DO SO FOR THE “RIGHT REASONS”?},
+  author={Liu, Tong and {\v{S}}krjanec, Iza and Demberg, Vera},
+  booktitle={ICLR 2024 Workshop on Representational Alignment},
+  year={2024}
+}
+```   
+
