@@ -15,8 +15,17 @@ GPT2 s/m/l/xl on Natural Stories/Brown corpora:
 ```bash
 sh run.sh
 ```
+ - Note 1: Inside the above .sh file, to calculate the $\Delta_{\mathcal{llh}}$ at $T=1$: 
+```bash
+python PPP_calculation.py -n 1000 -data_name ${data_name0} -model_name ${model_name0} -cuda_num "0"  -K 10 -T_optimal 1.0
+```
+To scale T with $T\geq1$ (e.g., $T \in [1.0, 10.0]$):  
+```bash
+python PPP_calculation.py -n 1000 -data_name ${data_name0} -model_name ${model_name0} -cuda_num "0"  -K 0 
+```     
 
-Note: Core Components of the Temperature-Scaling Code:  
+
+ - Note 2: Core Components of the Temperature-Scaling Code:  
 1. Calculate logits, probabilities and labels (utils.py).
 2. Scale logits using temperature (line 230-231 in PPP_calculation.py):  
 
