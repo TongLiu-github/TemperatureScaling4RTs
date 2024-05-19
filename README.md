@@ -18,10 +18,10 @@ sh run.sh
 
 Note: Core Components of the Temperature-Scaling Code:  
 1. Calculate logits, probabilities and labels (utils.py).
-2. Scale logits using temperature (PPP_calculation.py):  
+2. Scale logits using temperature (line 230-231 in PPP_calculation.py):  
 
 <h3> Processed Data </h3>
-Processed data for Natural Stories and Brown:  
+We provided processed data for Natural Stories and Brown:  
 
 ./PPP_Calculation_Natural_Stories/data/all.txt.annotation.filtered.csv,  
 and  
