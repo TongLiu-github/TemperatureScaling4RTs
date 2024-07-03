@@ -1,6 +1,6 @@
 # Temperature-scaling surprisal estimates improve fit to human reading times – but does it do so for the “right reasons”?
 
-Code for the paper [Temperature-scaling surprisal estimates improve fit to human reading times – but does it do so for the “right reasons”?](https://openreview.net/pdf?id=zdAXhcemNF) (ACL 2024 long paper).
+Code for the paper [Temperature-scaling surprisal estimates improve fit to human reading times – but does it do so for the “right reasons”?](https://openreview.net/pdf?id=9Q1qAIbjSp) (ACL 2024 long paper).
 
 
 
