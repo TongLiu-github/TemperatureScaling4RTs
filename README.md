@@ -48,11 +48,11 @@ We provide processed data for Natural Stories and Brown in *./PPP_Calculation_{c
 <h3> BibTeX </h3>  
 
 ```bash
-@inproceedings{liu2024temperature,
-  title={TEMPERATURE-SCALING SURPRISAL ESTIMATES IMPROVE FIT TO HUMAN READING TIMES--BUT DOES IT DO SO FOR THE “RIGHT REASONS”?},
+@article{liu2023improving,
+  title={Improving fit to human reading times via temperature-scaled surprisal},
   author={Liu, Tong and {\v{S}}krjanec, Iza and Demberg, Vera},
-  booktitle={ICLR 2024 Workshop on Representational Alignment},
-  year={2024}
+  journal={arXiv preprint arXiv:2311.09325},
+  year={2023}
 }
 ```   
 
