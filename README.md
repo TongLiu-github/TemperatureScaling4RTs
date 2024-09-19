@@ -53,17 +53,9 @@ We provide processed data for Natural Stories and Brown in *./PPP_Calculation_{c
     author = "Liu, Tong  and
       {\v{S}}krjanec, Iza  and
       Demberg, Vera",
-    editor = "Ku, Lun-Wei  and
-      Martins, Andre  and
-      Srikumar, Vivek",
     booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = aug,
     year = "2024",
-    address = "Bangkok, Thailand",
-    publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.acl-long.519",
-    pages = "9598--9619",
-    abstract = "A wide body of evidence shows that human language processing difficulty is predicted by the information-theoretic measure surprisal, a word{'}s negative log probability in context. However, it is still unclear how to best estimate these probabilities needed for predicting human processing difficulty {--} while a long-standing belief held that models with lower perplexity would provide more accurate estimates of word predictability, and therefore lead to better reading time predictions, recent work has shown that for very large models, psycholinguistic predictive power decreases. One reason could be that language models might be more confident of their predictions than humans, because they have had exposure to several magnitudes more data. In this paper, we test what effect temperature-scaling of large language model (LLM) predictions has on surprisal estimates and their predictive power of reading times of English texts. Firstly, we show that calibration of large language models typically improves with model size, i.e. poorer calibration cannot account for poorer fit to reading times. Secondly, we find that temperature-scaling probabilities lead to a systematically better fit to reading times (up to 89{\%} improvement in delta log likelihood), across several reading time corpora. Finally, we show that this improvement in fit is chiefly driven by words that are composed of multiple subword tokens.",
 }
 ```   
 
