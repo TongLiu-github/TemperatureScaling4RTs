@@ -48,11 +48,22 @@ We provide processed data for Natural Stories and Brown in *./PPP_Calculation_{c
 <h3> BibTeX </h3>  
 
 ```bash
-@article{liu2023temperature,
-  title={Temperature-scaling surprisal estimates improve fit to human reading times--but does it do so for the" right reasons"?},
-  author={Liu, Tong and {\v{S}}krjanec, Iza and Demberg, Vera},
-  journal={arXiv preprint arXiv:2311.09325},
-  year={2023}
+@inproceedings{liu-etal-2024-temperature,
+    title = "Temperature-scaling surprisal estimates improve fit to human reading times {--} but does it do so for the {\textquotedblleft}right reasons{\textquotedblright}?",
+    author = "Liu, Tong  and
+      {\v{S}}krjanec, Iza  and
+      Demberg, Vera",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.519/",
+    doi = "10.18653/v1/2024.acl-long.519",
+    pages = "9598--9619"
 }
 
 ```   
